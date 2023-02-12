@@ -151,17 +151,3 @@ user@ubuntu:~/AirBnB$ ./console.py
 ### AUTHORS
 #### Oyiboluawhore Mamuro Marvelous
 #### Adeyemi Isaac Akinloluwa
-
-
-
-$ ./console.py
-(hbnb) create User
-(hbnb)
-(hbnb) update User id first_name "name"
-(hbnb) show User uid
-(hbnb)
-(hbnb) User.update(uid), address, "address")
-(hbnb) User.show(uid)
-(hbnb)
-(hbnb) User.update(uid, {'email': 'email', 'last_name': 'last_name'})
-(hbnb) 
