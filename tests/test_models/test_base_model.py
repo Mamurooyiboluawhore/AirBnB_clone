@@ -172,7 +172,7 @@ class TestBaseModel(unittest.TestCase):
             f.seek(0)
             self.assertEqual(json.load(f), d)
 
-    def test_5_save_no_args(self):
+ def test_5_save_no_args(self):
         """Tests save() with no arguments."""
         self.resetStorage()
         with self.assertRaises(TypeError) as e:
